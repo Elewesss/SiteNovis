@@ -1,0 +1,91 @@
+index.html >< - Key Points.
+Document starts with <!DOCTYPE html> and <html lang="en"> (index.html)
+<head> — metadata: <meta charset="UTF-8">, <title>. (index.html)
+<body> — visible part of the website. (index.html)
+
+Main Tags :
+
+<h1>…<h6> — headings.
+
+<p> — paragraph.
+
+<a href="url"> — link; target="_blank" opens in a new tab.
+
+<img src="url" alt="description"> — image.
+
+<ul> / <ol> + <li> — lists.
+
+<table> + <tr> + <th> + <td> — tables.
+
+<form> + <input> + <textarea> + <select> — forms and input fields.
+
+<button> — button for actions.
+(< Index.html >)
+Important attributes :
+
+id — unique identifier (for JS).
+
+class — class (for CSS and JS).
+
+name — input name (for form submission).
+
+placeholder — hint inside input.
+
+alt — text description for images.
+(script.js / style.css)
+
+CSS - Page Styling.
+Linking CSS: <link rel="stylesheet" href="style.css">.
+
+Selectors:
+
+By tag: p { }
+
+By class: .highlight { }
+
+By id: #main { }
+
+Key properties :
+Text color: color
+
+Background: background-color
+
+Fonts: font-family, font-size, font-style
+
+Spacing: margin, padding
+
+Text alignment: text-align
+
+Link styles: text-decoration, :hover
+
+Table styles: border, padding, border-collapse
+
+Image styles: border-radius, box-shadow
+JS — Dynamics and Interactivity.
+Linking: <script src="script.js"></script> or inline <script>.
+
+Variables: let (mutable), const (constant).
+
+Conditions: if … else
+
+Loops: for
+
+Functions: function name() { … }
+
+DOM manipulation:
+
+document.getElementById("id") — select element by ID.
+
+element.innerText — change text content.
+
+element.style.display — show/hide elements.
+
+Events: onclick, onsubmit, etc.
+
+Examples we did :
+
+Button to “Show/Hide Form”.
+
+Alert on form submission.
+
+Manipulating table and form elements with JS.
